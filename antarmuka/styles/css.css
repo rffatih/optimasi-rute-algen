@@ -1,0 +1,183 @@
+/* SKRIPSI */
+@charset "utf-8";
+
+@font-face {
+	font-family: "Baloo 2";
+	src: url("../fonts//Baloo_2/Baloo2-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Homemade Apple";
+	src: url("../fonts/Homemade_Apple/HomemadeApple-Regular.ttf");
+}
+
+body {
+	font-family: "Baloo 2";
+}
+
+#bingkai {
+	background-image: url("../images/apel-batu.jpg");
+	background-repeat: repeat;
+	font-size: 20px;
+	color: red;
+	border: 2px solid red;
+	padding : 10px;
+}
+
+#header {
+	background-color: black;
+	background-image: url("../images/bendera.jpg");
+	background-size: 100% 100%;
+	padding: 5px;
+	height: 115px;
+	position: relative;
+	color: #ffffff;
+}
+
+#header > * {
+	position: relative;
+}
+
+#header::before {
+	content: "";
+	background-color: rgba(1, 83, 219, 0.3);
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+#header_sekunder {
+	text-align: center;
+	font-size: 1rem;
+	color: white;
+}
+
+#header_sekunder a {
+	color: inherit;
+	text-decoration: none;
+	font-style: italic;
+}
+
+#header_sekunder a:hover {
+	color: #ffb806;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;;
+}
+
+#header_kiri {
+	float: left;
+	padding: 5px;
+	z-index: 1;
+}
+
+#header_kanan {
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bold;
+	font-family: "Homemade Apple";
+	color: #ffb806;
+}
+
+#microtime{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	color: #9400D3;
+	font-size: 20px;
+}
+
+#tombolKeHasil{
+	text-align: center;
+}
+
+.atribut {
+	float: right;
+	height: 80px;
+	text-align: center;
+}
+
+.nama_atribut {
+	font-size: 1rem;
+	text-align: center;
+}
+
+#konten {
+	clear: both;;
+	margin: 20px;
+	padding: 10px;
+	border: 2px solid red;
+	background-color: #FFFFCC;
+}
+
+#footer {
+	border: 2px solid black;
+}
+
+img.logo {
+	width: 100px;
+	height: 100px;
+}
+
+img.footer {
+	width: 100%;
+	height: auto;
+}
+
+img.emot {
+	width: 150px;
+	height: 150px;
+}
+
+table.hasil{
+	font-size: 18px;
+	color: #000033;
+}
+
+a.pojok {
+	font-size: 15px;
+	color: red;
+}
+
+p.hasil{
+	font-size: 18px;
+	color: #000033;
+}
+
+.input-matrix {
+	width: 4rem;
+}
+
+/** css pastisi */
+.flex {
+	display: flex;
+}
+.flex-col {
+	display: flex;
+	flex-direction: column;
+}
+.ml-4 {
+	margin-left: 1rem;
+}
+.mt-4 {
+	margin-top: 1rem;
+}
+.font-sm {
+	font-size: 1rem;
+}
+.pointer {
+	cursor: pointer;
+}
+.p-1 {
+	padding: 0.25rem;
+}
+.p-2 {
+	padding: 0.5rem;
+}
+.box-shadow {
+	box-shadow: 1px 6px 4px rgba(215, 215, 36, 0.5);
+	border-radius: 5px;
+	max-width: fit-content;
+	max-width: -moz-fit-content;
+}
